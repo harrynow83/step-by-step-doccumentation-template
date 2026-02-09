@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Guía Interactiva de Ensamblaje</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">TECH<span>BUILD</span></div>
+  <div class="top-actions">
+    <span id="progressText">Paso 1 de 7</span>
+    <button id="loginBtn">Login</button>
+  </div>
+</header>
+
+<div class="progress-bar">
+  <div class="progress" id="progress"></div>
+</div>
+
+<main class="container fade" id="app">
+
+  <h1 id="stepTitle"></h1>
+
+  <div class="image-wrapper">
+    <img id="mainImage">
+  </div>
+
+  <div class="thumbnails" id="thumbs"></div>
+
+  <div class="info-box" id="stepText"></div>
+
+  <div class="warning" id="warningBox"></div>
+
+  <div class="navigation">
+    <button id="prev">⟵ Anterior</button>
+    <button id="next" class="primary">Siguiente ⟶</button>
+  </div>
+
+  <section class="comments">
+    <h3>💬 Comentarios</h3>
+    <div id="comments"></div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
