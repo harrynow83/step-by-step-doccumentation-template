@@ -1,3 +1,15 @@
 git add .
 git commit -m "Actualización"
 git push
+
+
+
+si editas o haces algun cambio directamente desde github
+
+git pull --rebase origin main
+git push
+
+
+
+o tambien si nadie mas toco el repo, solo tu entonces prueva esto
+git push --force
